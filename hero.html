@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero block</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header><nav class="nav">
+        <img class="nav__logo" src="Apple_logo_black.svg" alt=" ">
+        <div class="nav__icon collapsible"><i class="fa fa-navicon"></i></div>
+            <ul class="list nav__list content">
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iphone</a></li>
+                <li><a href="#">ipad</a></li>
+                <li><a href="#">Watch</a></li> 
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+    </nav>
+    </header>
+    <div class="hero-block">
+        
+            <div class="hero__heading">
+                <h1>The best experiences <br> only on Apple.</h1>
+            </div>
+            <picture class="hero__image">  
+                <img class="hero-image" src="apple-products2x.webp" alt="apple products" 
+                srcset="apple-products400.webp 300w,
+                apple-products2x.webp 768w,
+                apple-products2.webp 1000w">
+            </picture>
+    </div>
+    <h2 class="plan__header">Plans</h2>
+    <div class="plan">
+    <span class="card">
+        <header class="card__header">
+                <h3 class="card__name">Entry</h3>
+                <span class="plan__price">$85</span>
+                <span class="plan__billing-cycle">/month<br></span>
+                <div class="badge plan__badge">10% OFF</div>
+                <br>
+                <div class="card__description">easy start on the cloud</div>
+        </header>
+        <div class="card__body">
+            <ul class="card__list">
+                <li>Unlimited Websites</li>
+                <li>Unlimited Bandwidth</li>
+                <li>100 GB SSD Storage</li>
+                <li>3 GB RAM</li>
+            </ul>
+            <button class="buy__button">BUY NOW</button>
+        </div>
+    </span>
+    <span class="card card--premium">
+        <header class="card__header">
+            <h3 class="card__name">Premium</h3>
+            <span class="plan__price">$180</span>
+            <span class="plan__billing-cycle">/month<br></span>
+            <div class="badge plan__badge">10% OFF</div>
+            <br>
+            <div >easy start on the cloud</div>
+        </header>
+        <div class="card__body">
+            <ul class="card__list">
+                <li>Unlimited Websites</li>
+                <li>Unlimited Bandwidth</li>
+                <li>100 GB SSD Storage</li>
+                <li>3 GB RAM</li>
+            </ul>
+            <button class="buy__button">BUY NOW</button>
+        </div>
+    </span>
+    <span class="card">
+        <header class="card__header">
+            <h3 class="card__name">medium</h3>
+            <span class="plan__price">$120</span>
+            <span class="plan__billing-cycle">/month<br></span>
+            <div class="badge plan__badge">10% OFF</div>
+            <br>
+            <div class="card__description">easy start on the cloud</div>
+        </header>
+        <div class="card__body">
+            <ul class="card__list">
+                <li>Unlimited Websites</li>
+                <li>Unlimited Bandwidth</li>
+                <li>100 GB SSD Storage</li>
+                <li>3 GB RAM</li>
+            </ul>
+            <button class="buy__button">BUY NOW</button>
+        </div>
+    </span>
+</div>
+    <script src="../collapsible.js"></script>
+</body>
+</html>
